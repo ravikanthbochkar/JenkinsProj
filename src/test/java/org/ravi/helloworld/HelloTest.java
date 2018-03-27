@@ -27,7 +27,7 @@ public class HelloTest {
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 	}
 
-	@Test
+	//@Test
 	public void f() {
 
 		text = driver.findElement(By.xpath("html/body/h2"));
